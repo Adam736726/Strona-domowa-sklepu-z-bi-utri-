@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złóż Zamówienie</title>
+<a href="strona.html" class="button" style="color: red; text-decoration: none;">| Powrót |</a>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 400px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Złóż Zamówienie</h2>
+<form action="#" method="post">
+    <label for="name">Imię i Nazwisko:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="name">Kod Pocztowy:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="name">Adres:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="name">Numer Telefonu:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="product">Wybierz Produkt:</label>
+    <select id="product" name="product" required>
+        <option value="">-- Wybierz --</option>
+        <option value="product1">Pierścionek Złoty</option>
+        <option value="product2">Naszyjnik Złoty</option>
+        <option value="product3">Bransoletka Perłowa</option>
+        <option value="product1">Sygnet z orłem</option>
+        <option value="product1">Kolczyki</option>
+        <option value="product1">Zegarek TAG HEUER Carrera Calibre</option>
+        <option value="product1">Zegarek OMEGA SPEEDMASTER MOONWATCH</option>
+        <option value="product1">Zegarek Zeppelin 100 Jahre</option>
+    </select>
+
+    <label for="quantity">Ilość:</label>
+    <input type="number" id="quantity" name="quantity" min="1" required>
+
+    <button type="submit">Złóż Zamówienie</button>
+</form>
+
+</body>
+</html>
+
